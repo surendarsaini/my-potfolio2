@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color:lightseagreen;
+}
+
+.contener {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-image: url(https://www.naturepl.com/blog/wp-content/uploads/2025/04/1756582-2400x1800.jpg);
+    background-size: cover;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: black;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: transparent; 
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 6px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: darkorange;
+}
